@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Cena não encontrada | SoaresFilms</title>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; background: #0f1625; color: #f1dfc7; font: 18px/1.5 Georgia, serif; text-align: left; }
+    h1 { font: 700 clamp(3rem, 12vw, 7rem)/1 "Arial Narrow", Impact, sans-serif; text-transform: uppercase; margin: 0 0 12px; }
+    p { margin: 0 0 20px; }
+    a { color: #e6a57d; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Corta!</h1>
+    <p>Esta cena ficou de fora da montagem final.</p>
+    <a id="home" href="/">Voltar ao início</a>
+  </main>
+  <script>
+    // Num endereço github.io/nome-do-repo, o início é a primeira pasta do caminho.
+    if (location.hostname.endsWith('github.io')) {
+      var repo = location.pathname.split('/')[1];
+      if (repo) document.getElementById('home').href = '/' + repo + '/';
+    }
+  </script>
+</body>
+</html>

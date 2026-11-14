@@ -25,7 +25,7 @@
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="preload" href="assets/fonts/league-gothic-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=3">
 
   <script type="application/ld+json">
   {
@@ -194,15 +194,11 @@
     <div class="band__inner">
       <div class="sponsors wrap">
         <h2 class="h2">Patrocinadores oficiais</h2>
-        <!-- Patrocinador novo: copia o <li class="sponsor"> e troca o logo, o alt e o link. -->
+        <!-- Patrocinador novo: copia o <li class="sponsor"> e troca o link, o logo e os textos. -->
         <ul class="sponsors__list">
           <li class="sponsor">
-            <div class="sponsor__frame">
+            <a class="sponsor__frame" href="https://miguelmarnoto.pt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Miguel Marnoto Fotografia, abrir o website">
               <img src="assets/img/patrocinadores/miguel-marnoto.webp" width="195" height="89" loading="lazy" alt="Miguel Marnoto Fotografia">
-            </div>
-            <a class="sponsor__link" href="https://miguelmarnoto.pt" target="_blank" rel="sponsored noopener noreferrer">
-              Visitar website
-              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M5 12h13M13 6l6 6-6 6"/></svg>
             </a>
           </li>
         </ul>
@@ -268,6 +264,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js" defer></script>
+  <script src="js/main.js?v=2" defer></script>
 </body>
 </html>
